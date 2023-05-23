@@ -21,7 +21,6 @@ class Solution:
                 t=y
                 x.next=None
                 y=x
-        print(f)
         while c!=0 and f:
             t.next=ListNode(f.val,t.next)
             f=f.next
