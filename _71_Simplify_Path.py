@@ -4,8 +4,6 @@ class Solution:
         re=[]
         for i in p:
             if i=="" or i==".":continue
-            if i=="..":
-                re=re[:-1]
-            else:
-                re.append(i)
+            if i=="..":re=re[:-1]
+            else:re.append(i)
         return "/"+"/".join(re)
